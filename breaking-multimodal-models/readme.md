@@ -36,16 +36,16 @@ The goal is to identify conditions under which vision-language models produce de
 
 
 
-## 📊 Results
+##  Results
 
 | Attack Type           | Success |
 |----------------------|--------|
-| Gaussian Noise       | ✅ True |
-| Brightness/Contrast  | ❌ False |
-| Color Shift          | ❌ False |
-| Blur                 | ❌ False |
-| Random Patch         | ❌ False |
-| White Patch          | ❌ False |
+| Gaussian Noise       |  True |
+| Brightness/Contrast  |  False |
+| Color Shift          |  False |
+| Blur                 |  False |
+| Random Patch         |  False |
+| White Patch          |  False |
 
 ### Key Metrics
 - Total Attacks: **6**  
@@ -78,12 +78,8 @@ The goal is to identify conditions under which vision-language models produce de
 ##  Project Structure
 - breaking-multimodal-models/
 │
-- ├── notebook/
-│ └── LMM_RESEARCH.ipynb
-- ├── results/
-│ ├── attack_results.csv
-│ ├── attack_results.json
-│
+- ├── notebook/LMM_RESEARCH.ipynb
+- ├── results/attack_results.csv , attack_results.json
 - └── README.md
 ## Conclusion
 
